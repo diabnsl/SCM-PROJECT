@@ -9,3 +9,11 @@ body{
     width: 100%;
     background-color:papayawhip;
 }
+header{
+    height: 60px;
+    width: 100%;
+    background-color: tan;
+    display: flex;
+    align-items: center;
+    color: rgb(37, 28, 28);
+}
