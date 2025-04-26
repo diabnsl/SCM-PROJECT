@@ -24,3 +24,10 @@ header{
     align-items: center;
     justify-content: space-around;
 }
+.menuicon{
+    text-align: right;
+    font-size: 25px;
+    padding: 15px;
+    cursor: pointer;
+    display: block;
+}
