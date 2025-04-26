@@ -17,3 +17,10 @@ header{
     align-items: center;
     color: rgb(37, 28, 28);
 }
+.heading{
+    width: 91%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
