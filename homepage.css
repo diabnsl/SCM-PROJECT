@@ -31,3 +31,8 @@ header{
     cursor: pointer;
     display: block;
 }
+.search-input{
+    width: 125px;
+    cursor: pointer;
+    background-color: bisque;
+}
