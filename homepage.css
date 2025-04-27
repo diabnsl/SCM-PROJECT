@@ -58,3 +58,19 @@ button{
     width: 100px;
     height: 30px;
 }
+button:hover{
+    background-color: transparent;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+a:link{
+    color: black;
+}
+a:hover{
+    color: #AF804F;
+}
+.navlist{
+    display: none;
+}
