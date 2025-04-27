@@ -35,4 +35,10 @@ header{
     width: 125px;
     cursor: pointer;
     background-color: bisque;
+    border: rgb(100, 68, 25) solid;
+    padding: 10px 20px;
+    border-radius: 20px;
+}
+li{
+    list-style-type: none;
 }
