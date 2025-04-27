@@ -46,3 +46,15 @@ nav ul li{
     display: inline;
     margin-right: 20px;
 }
+.logo{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 50px;
+}
+button{
+    background-color: burlywood;
+    cursor: pointer;
+    border: 1px, solid balck;
+    border-radius: 20px;
+    width: 100px;
+    height: 30px;
+}
