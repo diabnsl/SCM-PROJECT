@@ -149,3 +149,15 @@ a:link{
 .best1 h2{
     padding: 10px;
 }
+.best1 p{
+    padding: 10px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+footer{
+    background-color: #AF804F;
+    color: black;
+    text-align: center;
+    padding: 10px 0;
+    font-weight: bolder;
+    font-size: 20px;
+}
