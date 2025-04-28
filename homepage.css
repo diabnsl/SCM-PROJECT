@@ -161,3 +161,12 @@ footer{
     font-weight: bolder;
     font-size: 20px;
 }
+@media ( min-width: 765px){
+    .menuicon{
+   display: none;
+  }
+  .navlist{
+   display: block;
+  }
+
+}
