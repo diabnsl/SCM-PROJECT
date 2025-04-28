@@ -111,3 +111,32 @@ h3{
     column-gap: 10px;
     text-align: center;
 }
+.best1{
+    background-color: papayawhip;
+    margin: 30px 10px;
+}
+.best1 img {
+    width: 70%;
+    height: 60%;
+    margin: auto;
+    border-radius: 14px;
+    border: 1px, burlywood;
+}
+img:hover{
+    box-shadow: 0 0 4px 4px rgb(231, 167, 83);
+}
+.best1 div img{
+    transition: all;
+}
+.best1 a{
+    color: black;
+    text-align: center;
+    font-weight: bolder;
+    display: block;
+    background-color: burlywood;
+    padding: 15px 0;
+    border-radius: 30px;
+}
+a:link{
+    color: black;
+}
