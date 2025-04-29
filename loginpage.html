@@ -127,6 +127,26 @@
             <button type="button" class="google-btn" ><p>already have an account?<a href="Login2.html">Log in</a></button></p>
         </form>
     </div>
+    <script>
+        function validateForm() {
+            var username = document.getElementById('Username').value;
+            var email = document.getElementById('email').value;
+            var password = document.getElementById('password').value;
+
+            if (username === "" || email === "" || password === "") {
+                alert("All fields must be filled out");
+                return false;
+            }
+            alert("Your account have been created")
+            return true;
+        }
+
+        function signInWithGoogle() {
+      
+            alert("Redirecting to Google sign-in...");
+            
+        }
+    </script>
 
     
 </body>
