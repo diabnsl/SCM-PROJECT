@@ -25,3 +25,16 @@
     align-items: center;
     justify-content: space-around;
 }
+.about2 h1{
+    color: rgb(195,132.50);
+    font-size: 60px;
+    text-transform: capitalize;
+    margin-bottom: 20px;
+}
+.about p{
+    color: rgb(216, 115,43);
+    letter-spacing: 1px;
+    line-height: 28px;
+    font-size: 16px;
+    margin-bottom: 45px;
+}
