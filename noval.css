@@ -1,0 +1,146 @@
+/* Basic Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body Styling */
+body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    background-color:  #c59675;
+    color: #6F4E37;
+}
+
+/* Header Styling */
+header {
+    background-color:  #6F4E37;
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+}
+
+header h1 {
+    font-size: 2.5em;
+}
+
+nav ul {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    margin-top: 10px;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: rgb(239, 215, 206);
+    text-decoration: none;
+    font-size: 1.2em;
+}
+
+nav ul li a:hover {
+    color: #f39c12;
+}
+
+/* Autobiographies Section */
+.storybooks {
+    padding: 50px 0;
+    background-color: #e6c6af;
+}
+
+.storybooks .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.storybooks h2 {
+    text-align: center;
+    font-size: 2.5em;
+    margin-bottom: 20px;
+}
+
+.storybooks p {
+    text-align: center;
+    font-size: 1.1em;
+    margin-bottom: 40px;
+}
+
+/* Books List */
+.books-list {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.book-item {
+    background-color: #f7e3d8;
+    padding: 20px;
+    width: 250px;
+    text-align: center;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    transition: transform 0.3s;
+    overflow: hidden;
+}
+
+.book-item:hover {
+    transform: translateY(-5px);
+}
+
+.book-item img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+
+.book-item h3 {
+    font-size: 1.5em;
+    margin-top: 15px;
+}
+
+.book-item .author {
+    font-size: 1.1em;
+    color: #555;
+    margin-top: 5px;
+}
+
+.book-item .description {
+    font-size: 1em;
+    color: #666;
+    margin: 15px 0;
+    height: 100px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.read-more {
+    background-color: #3498db;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.read-more:hover {
+    background-color: #2980b9;
+}
+
+/* Footer Styling */
+footer {
+    background-color:  #6F4E37;
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+}
+
+footer p {
+    margin: 5px 0;
+}
