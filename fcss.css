@@ -5,6 +5,13 @@
     box-sizing: border-box;
 }
 
+/* Body Styling */
+body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    background-color:  #c59675;
+    color: #6F4E37;
+}
 
 
 
