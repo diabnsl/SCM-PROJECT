@@ -1,3 +1,4 @@
+/* Basic Reset */
 * {
     margin: 0;
     padding: 0;
@@ -46,24 +47,24 @@ nav ul li a:hover {
 }
 
 /* Autobiographies Section */
-.autobiographies {
+.fictionalbooks {
     padding: 50px 0;
     background-color: #e6c6af;
 }
 
-.autobiographies .container {
+.fictionalbooks .container {
     max-width: 1200px;
     margin: 0 auto;
     padding: 0 20px;
 }
 
-.autobiographies h2 {
+.fictionalbooks h2 {
     text-align: center;
     font-size: 2.5em;
     margin-bottom: 20px;
 }
 
-.autobiographies p {
+.fictionalbooks p {
     text-align: center;
     font-size: 1.1em;
     margin-bottom: 40px;
