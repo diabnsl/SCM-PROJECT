@@ -99,6 +99,26 @@ nav ul li a:hover {
     border-radius: 8px;
 }
 
+.book-item h3 {
+    font-size: 1.5em;
+    margin-top: 15px;
+}
+
+.book-item .author {
+    font-size: 1.1em;
+    color: #555;
+    margin-top: 5px;
+}
+
+.book-item .description {
+    font-size: 1em;
+    color: #666;
+    margin: 15px 0;
+    height: 100px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
 
 
 
